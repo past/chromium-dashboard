@@ -22,7 +22,7 @@ from framework import rediscache
 from internals import core_enums
 from internals import stage_helpers
 from internals.core_models import FeatureEntry, MilestoneSet, Stage
-from internals.legacy_models import Feature
+from internals.legacy.legacy_models import Feature
 from internals.review_models import Gate
 from pages import guide
 

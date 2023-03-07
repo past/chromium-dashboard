@@ -27,7 +27,7 @@ from framework import permissions
 from internals import core_enums, notifier_helpers
 from internals import stage_helpers
 from internals.core_models import FeatureEntry, MilestoneSet, Stage
-from internals.legacy_models import Feature
+from internals.legacy.legacy_models import Feature
 from internals.review_models import Gate
 from internals import processes
 from internals import search_fulltext

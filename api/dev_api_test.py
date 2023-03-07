@@ -19,7 +19,7 @@ from google.cloud import ndb  # type: ignore
 from api import dev_api
 from internals import stage_helpers
 from internals.core_models import FeatureEntry, Stage
-from internals.legacy_models import Feature
+from internals.legacy.legacy_models import Feature
 from internals.review_models import Gate
 
 class DevAPITest(testing_config.CustomTestCase):

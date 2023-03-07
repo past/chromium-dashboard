@@ -22,7 +22,7 @@ from flask import render_template
 
 from framework import basehandlers
 from internals.core_models import FeatureEntry, MilestoneSet
-from internals.legacy_models import Feature
+from internals.legacy.legacy_models import Feature
 from internals import notifier
 from internals import stage_helpers
 from internals.core_enums import STAGE_TYPES_BY_FIELD_MAPPING

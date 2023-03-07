@@ -19,7 +19,7 @@ from unittest import mock
 
 from internals import core_enums
 from internals.core_models import FeatureEntry
-from internals.legacy_models import Feature
+from internals.legacy.legacy_models import Feature
 from internals import notifier
 from internals import review_models
 from internals import search

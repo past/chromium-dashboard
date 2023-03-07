@@ -16,7 +16,7 @@ import testing_config  # Must be imported before the module under test.
 
 import datetime
 
-from internals.legacy_models import Feature
+from internals.legacy.legacy_models import Feature
 from internals.review_models import Activity, Approval, Gate, OwnersFile, Vote
 
 
